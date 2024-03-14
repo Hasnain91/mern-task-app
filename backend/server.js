@@ -14,7 +14,7 @@ app.use("/api/tasks", taskRoutes);
 
 // Routes
 app.get("/", (req, res) => {
-  res.send("Home Page...");
+  res.send("Home Page");
 });
 
 const PORT = process.env.PORT || 3000;
