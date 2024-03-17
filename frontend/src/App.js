@@ -4,8 +4,8 @@ import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   return (
-    <div className="App">
-      <div className=".task-container">
+    <div className="app">
+      <div className="task-container">
         <TaskList />
       </div>
       <ToastContainer />
